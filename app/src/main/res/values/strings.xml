@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">XiaoQueSang</string>
+
+    <string name="title_submit">投稿</string>
+
+    <string name="hint_submit">小确丧，才是真实的你</string>
+
+
 </resources>
