@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:gravity="center_vertical"
+    android:layout_height="44dp">
+    <com.xiamo.xiaoquesang.common.widget.ColorFilterImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:padding="4dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/backImg"
+        android:src="@mipmap/back"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleTv"
+        android:layout_centerHorizontal="true"
+        android:text="同步"
+        android:textColor="@color/textColor3"
+        android:textSize="17sp"/>
+
+    <com.xiamo.xiaoquesang.common.widget.ColorFilterImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:padding="4dp"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/submit"/>
+</RelativeLayout>

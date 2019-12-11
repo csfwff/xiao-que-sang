@@ -3,7 +3,14 @@
 
     <string name="title_submit">投稿</string>
 
+    <string name="btn_logout">退出登录</string>
+
     <string name="hint_submit">小确丧，才是真实的你</string>
+
+    <string name="mine_submit">投稿</string>
+    <string name="mine_fav">收藏</string>
+    <string name="mine_info">个人资料</string>
+    <string name="mine_about">关于我们</string>
 
 
 </resources>

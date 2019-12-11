@@ -26,6 +26,8 @@ abstract class BaseActivity :AppCompatActivity(){
             keyboardEnable(true)
             navigationBarColor(android.R.color.white)
         }
+
+        initView()
     }
 
     protected abstract fun getLayoutId():Int
