@@ -2,6 +2,8 @@
     <string name="app_name">XiaoQueSang</string>
 
     <string name="title_submit">投稿</string>
+    <string name="title_nickname">修改昵称</string>
+
 
     <string name="btn_logout">退出登录</string>
 
@@ -12,5 +14,10 @@
     <string name="mine_info">个人资料</string>
     <string name="mine_about">关于我们</string>
 
+    <string name="info_head">头像</string>
+    <string name="info_nickname">昵称</string>
+    <string name="info_phone">手机号</string>
+
+    <string name="info_nickname_change">请输入您的昵称</string>
 
 </resources>
