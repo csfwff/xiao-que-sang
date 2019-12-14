@@ -3,11 +3,15 @@
 
     <string name="title_submit">投稿</string>
     <string name="title_nickname">修改昵称</string>
+    <string name="title_fav">我的收藏</string>
+    <string name="title_comment">评论</string>
 
 
     <string name="btn_logout">退出登录</string>
+    <string name="btn_login">QQ登录</string>
 
     <string name="hint_submit">小确丧，才是真实的你</string>
+    <string name="hint_comment">说点啥……</string>
 
     <string name="mine_submit">投稿</string>
     <string name="mine_fav">收藏</string>
@@ -19,5 +23,7 @@
     <string name="info_phone">手机号</string>
 
     <string name="info_nickname_change">请输入您的昵称</string>
+
+    <string name="info_reply">回复</string>
 
 </resources>

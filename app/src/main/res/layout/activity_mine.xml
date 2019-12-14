@@ -19,16 +19,16 @@
                 android:src="@mipmap/mine_bg"
                 android:adjustViewBounds="true"/>
             <ImageView
-                android:layout_width="32dp"
-                android:layout_height="32dp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="40dp"
-                android:src="@mipmap/back"/>
+                android:src="@mipmap/back_1"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:orientation="vertical"
                 android:layout_gravity="center"
-                android:paddingTop="24dp"
+                android:paddingTop="36dp"
                 android:layout_height="wrap_content">
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="70dp"
@@ -39,7 +39,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    tools:text="唐墨夏"
+                    android:text="唐墨夏"
                     android:layout_marginTop="8dp"
                     android:textSize="20sp"
                     android:textColor="@android:color/white"/>
@@ -60,12 +60,12 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textColor="@android:color/white"
-                            tools:text="11"
+                            android:text="11"
                             android:textSize="16sp"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
+                            android:layout_marginTop="2dp"
                             android:textColor="@android:color/white"
                             android:text="@string/mine_submit"
                             android:textSize="16sp"/>
@@ -85,12 +85,12 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textColor="@android:color/white"
-                            tools:text="11"
+                            android:text="11"
                             android:textSize="16sp"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
+                            android:layout_marginTop="2dp"
                             android:textColor="@android:color/white"
                             android:text="@string/mine_fav"
                             android:textSize="16sp"/>
@@ -161,7 +161,7 @@
             android:background="@drawable/ripple_gray"
             android:text="@string/btn_logout"
             android:textSize="18sp"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/colorRed"
             android:paddingRight="16dp"
             android:layout_height="50dp">
 

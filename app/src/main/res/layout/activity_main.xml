@@ -17,12 +17,12 @@
         android:paddingBottom="8dp"
         android:layout_height="wrap_content">
         <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="48dp"
+            android:layout_width="36dp"
             android:src="@mipmap/unlogin"
             android:layout_marginLeft="8dp"
             android:id="@+id/headImg"
             android:layout_marginRight="8dp"
-            android:layout_height="48dp"/>
+            android:layout_height="36dp"/>
         <TextView
             android:layout_width="0dp"
             android:layout_weight="1"
@@ -32,18 +32,13 @@
             android:layout_marginLeft="8dp"
             android:layout_height="wrap_content"
             />
+
         <ImageView
-            android:layout_width="36dp"
-            android:layout_height="36dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:src="@mipmap/w_sun"/>
-        <ImageView
-            android:layout_width="36dp"
+            android:layout_width="28dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:id="@+id/submitImg"
-            android:layout_height="36dp"
+            android:layout_height="28dp"
             android:src="@mipmap/submit"/>
     </LinearLayout>
     <FrameLayout
@@ -137,8 +132,8 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_height="wrap_content">
             <View
-                android:layout_width="150dp"
-                android:layout_height="40dp"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
                 android:background="@drawable/bg_border_tl"/>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -146,26 +141,27 @@
                 android:layout_height="wrap_content">
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_margin="30dp"
+                    android:layout_margin="@dimen/textMargin"
                     android:text="你觉得现在过的不错？只不过是老天可怜你罢了。"
-                    android:textSize="20sp"
+                    android:textSize="16sp"
                     android:textColor="@color/textColor3"
                     android:layout_height="wrap_content"/>
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="@dimen/textMargin"
+                    android:layout_marginRight="@dimen/textMargin"
                     android:gravity="end"
-                    android:layout_marginBottom="30dp"
+                    android:layout_marginBottom="@dimen/textMargin"
                     android:text="------巴拉拉巴啦啦"
-                    android:textSize="14sp"
+                    android:textSize="12sp"
                     android:textColor="@color/textColor3"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
 
             <View
-                android:layout_width="150dp"
-                android:layout_height="40dp"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
                 android:layout_gravity="end|bottom"
                 android:background="@drawable/bg_border_br"/>
         </FrameLayout>
@@ -179,6 +175,7 @@
                 android:layout_width="wrap_content"
                 app:layout_constraintStart_toStartOf="parent"
                 android:orientation="vertical"
+                android:background="@drawable/ripple_gray"
                 android:id="@+id/commentLl"
                 app:layout_constraintEnd_toStartOf="@id/favLl"
                 android:gravity="center_horizontal"
@@ -203,6 +200,7 @@
                 app:layout_constraintStart_toEndOf="@id/commentLl"
                 android:orientation="vertical"
                 android:gravity="center_horizontal"
+                android:background="@drawable/ripple_gray"
                 app:layout_constraintEnd_toStartOf="@id/shareLl"
                 android:id="@+id/favLl"
                 app:layout_constraintTop_toTopOf="parent"
@@ -227,6 +225,7 @@
                 android:orientation="vertical"
                 android:gravity="center_horizontal"
                 android:id="@+id/shareLl"
+                android:background="@drawable/ripple_gray"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_height="wrap_content">

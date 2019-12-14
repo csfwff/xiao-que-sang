@@ -8,10 +8,12 @@
         android:label="@string/app_name"
         android:maxAspectRatio="2.4"
         android:resizeableActivity="true"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/XQSTheme">
-        <activity android:name=".ui.NameActivity"></activity>
+        <activity android:name=".ui.CommentActivity"></activity>
+        <activity android:name=".ui.LoginActivity" />
+        <activity android:name=".ui.MyFavActivity" />
+        <activity android:name=".ui.NameActivity" />
         <activity android:name=".ui.InfoActivity" />
         <activity android:name=".ui.MineActivity" />
         <activity android:name=".ui.SubmitActivity" />

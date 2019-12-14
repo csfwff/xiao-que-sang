@@ -22,7 +22,7 @@
         android:layout_centerHorizontal="true"
         android:text="同步"
         android:textColor="@color/textColor3"
-        android:textSize="17sp"/>
+        android:textSize="18sp"/>
 
     <com.xiamo.xiaoquesang.common.widget.ColorFilterImageView
         android:layout_width="28dp"

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     android:orientation="vertical"
     tools:context=".ui.SubmitActivity">
     <com.xiamo.xiaoquesang.common.widget.TitleBar
@@ -17,8 +18,9 @@
     <EditText
         android:layout_width="match_parent"
         android:background="@color/grayBg"
-        android:layout_height="240dp"
+        android:layout_height="180dp"
         android:padding="8dp"
+        android:textSize="14sp"
         android:gravity="top|start"
         android:hint="@string/hint_submit"
         android:layout_margin="16dp"/>
@@ -26,8 +28,8 @@
     <ImageView
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:src="@mipmap/photo_choose"/>
 
 

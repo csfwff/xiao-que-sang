@@ -12,4 +12,6 @@
     <color name="grayBorder">#666666</color>
     <color name="grayBg">#eeeeee</color>
     <color name="grayPress">#eeeeee</color>
+
+    <color name="colorRed">#ff2c55</color>
 </resources>

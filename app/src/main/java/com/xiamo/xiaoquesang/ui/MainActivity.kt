@@ -14,12 +14,14 @@ class MainActivity : BaseActivity() , View.OnClickListener{
     override fun initView() {
         submitImg.setOnClickListener(this)
         headImg.setOnClickListener(this)
+        commentLl.setOnClickListener(this)
     }
 
     override fun onClick(p0: View) {
         when(p0.id){
             R.id.submitImg ->startActivity<SubmitActivity>()
             R.id.headImg ->startActivity<MineActivity>()
+            R.id.commentLl->startActivity<CommentActivity>()
         }
     }
 }
